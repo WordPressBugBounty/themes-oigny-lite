@@ -140,4 +140,6 @@ return array(
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->',
+	'images'      => '',
+	'is_sync' => false,
 );

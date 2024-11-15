@@ -12,4 +12,6 @@ return array(
 <!-- /wp:gutenverse/post-block --></div></div>
 <!-- /wp:gutenverse/column --></div></section></div>
 <!-- /wp:gutenverse/section -->',
+	'images'      => '',
+	'is_sync' => false,
 );

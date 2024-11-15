@@ -4,8 +4,8 @@ Description: Oigny Lite is Dark and modern style Agency theme template for WordP
 Author: Jegstudio
 Author URI: https://gutenverse.com
 Theme URI: https://gutenverse.com/themes/oigny-lite/
-Version: 1.0.3
-Stable tag: 1.0.3
+Version: 1.0.4
+Stable tag: 1.0.4
 Requires at least: 6.2
 Tested up to: 6.6
 Requires PHP: 7.4.21
@@ -17,4 +17,7 @@ Tags: block-patterns,block-styles,custom-background,custom-menu,editor-style,ful
 
 :root{
     
+}
+.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > .block-library-block__reusable-block-container {
+    max-width: 100%;
 }

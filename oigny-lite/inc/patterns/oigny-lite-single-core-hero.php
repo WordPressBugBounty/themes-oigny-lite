@@ -48,4 +48,6 @@ return array(
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->',
+	'images'      => '',
+	'is_sync' => false,
 );

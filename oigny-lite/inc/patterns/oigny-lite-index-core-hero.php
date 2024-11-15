@@ -14,4 +14,6 @@ return array(
 <!-- /wp:columns --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->',
+	'images'      => '',
+	'is_sync' => false,
 );

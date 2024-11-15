@@ -117,6 +117,9 @@ Source: https://stocksnap.io/photo/woman-business-WL2CO0KNZD
 
 == Changelog ==
 
+= 1.0.4 - 2024-11-15 =
+* Update dashboard
+
 = 1.0.3 - 2024-09-18 =
 * Update responsive pagination
 

@@ -24,4 +24,6 @@ return array(
 <!-- /wp:gutenverse/button --></div></div>
 <!-- /wp:gutenverse/column --></div></section></div>
 <!-- /wp:gutenverse/section -->',
+	'images'      => '',
+	'is_sync' => false,
 );

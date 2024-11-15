@@ -82,4 +82,6 @@ return array(
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->',
+	'images'      => '',
+	'is_sync' => false,
 );
