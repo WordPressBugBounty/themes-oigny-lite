@@ -1,0 +1,536 @@
+# Copyright (C) 2026 Jegstudio
+# This file is distributed under the GNU General Public License v3 or later..
+msgid ""
+msgstr ""
+"Project-Id-Version: Oigny Lite 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/oigny-lite-YH9uXN0OdvgD\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-04-28T02:10:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: oigny-lite\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/class/class-init.php:2287
+msgid "Oigny Lite"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://gutenverse.com/themes/oigny-lite/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+#: inc/class/class-init.php:2288
+msgid "Oigny Lite is a Dark Digital Agency WordPress Block Theme designed for creative teams that want to build a bold and modern online presence. Built with full site editing and powered by Gutenverse, this theme offers a flexible and visually striking platform to showcase portfolios, services, and brand identity with a sleek dark style and professional layout. Whether you run a digital agency, creative studio, or freelance business, Oigny Lite helps you present your work with impact and clarity. It is ideal for designers, developers, branding agencies, marketing teams, and creative professionals looking to stand out online. With responsive layouts, customizable block patterns, and well-structured pages, you can easily highlight projects, case studies, services, and client testimonials in a compelling way. Optimized for performance and usability, Oigny Lite enables you to create a high-quality website that reflects your brand and expertise in the Dark Digital Agency space. If you need a modern and visually engaging solution, Oigny Lite is a reliable Dark Digital Agency WordPress theme to grow your digital presence."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Jegstudio"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://gutenverse.com"
+msgstr ""
+
+#: inc/class/class-block-patterns.php:57
+msgid "Oigny Lite Core Patterns"
+msgstr ""
+
+#: inc/class/class-block-patterns.php:61
+msgid "Oigny Lite Gutenverse Patterns"
+msgstr ""
+
+#: inc/class/class-block-patterns.php:62
+msgid "Oigny Lite Gutenverse PRO Patterns"
+msgstr ""
+
+#: inc/class/class-init.php:2289
+msgid "Plugin Requirement"
+msgstr ""
+
+#: inc/class/class-init.php:2290
+msgid "This theme require some plugins. Please make sure all the plugin below are installed and activated."
+msgstr ""
+
+#: inc/class/class-init.php:2296
+msgid "Install Gutenverse Plugin"
+msgstr ""
+
+#: inc/class/class-init.php:2297
+msgid "Activate Gutenverse Plugin"
+msgstr ""
+
+#: inc/class/class-init.php:2298
+msgid "Gutenverse Plugin Installed"
+msgstr ""
+
+#: inc/class/class-init.php:2312
+#: inc/class/class-plugin-notice.php:90
+msgid "Gutenverse"
+msgstr ""
+
+#: inc/class/class-init.php:2313
+#: inc/class/class-plugin-notice.php:91
+msgid "GUTENVERSE – GUTENBERG BLOCKS AND WEBSITE BUILDER FOR SITE EDITOR, TEMPLATE LIBRARY, POPUP BUILDER, ADVANCED ANIMATION EFFECTS, COMPLETE FEATURE ECOSYSTEM, 45+ FREE USER-FRIENDLY BLOCKS"
+msgstr ""
+
+#: inc/class/class-init.php:2326
+#: inc/class/class-plugin-notice.php:104
+msgid "Gutenverse Form"
+msgstr ""
+
+#: inc/class/class-init.php:2327
+#: inc/class/class-plugin-notice.php:105
+msgid "GUTENVERSE FORM – FORM BUILDER FOR GUTENBERG BLOCK EDITOR, MULTI-STEP FORMS, CONDITIONAL LOGIC, PAYMENT, CALCULATION, 15+ FREE USER-FRIENDLY FORM BLOCKS"
+msgstr ""
+
+#: inc/class/class-init.php:2339
+#: inc/class/class-plugin-notice.php:117
+msgid "Gutenverse Companion"
+msgstr ""
+
+#: inc/class/class-init.php:2340
+#: inc/class/class-plugin-notice.php:118
+msgid "A companion plugin designed specifically to enhance and extend the functionality of Gutenverse base themes. This plugin integrates seamlessly with the base themes, providing additional features, customization options, and advanced tools to optimize the overall user experience and streamline the development process."
+msgstr ""
+
+#: inc/class/class-init.php:2366
+msgid "Oigny PRO"
+msgstr ""
+
+#: inc/class/class-init.php:2429
+msgid "You don't have any demo activated"
+msgstr ""
+
+#: inc/class/class-init.php:2497
+#: inc/class/class-init.php:2499
+#: inc/class/class-init.php:2500
+msgid "unknown"
+msgstr ""
+
+#: inc/class/class-init.php:2502
+msgid "by"
+msgstr ""
+
+#: inc/class/class-init.php:2524
+#: inc/class/class-init.php:2525
+msgid "Oigny Lite Dashboard"
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:347
+msgid "Installing..."
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:387
+msgid "Install Failed, Try Again"
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:401
+msgid "Thank you For Installing Oigny Lite Theme"
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:403
+msgid "Unlock the full potential of your website with the recommended plugins."
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:405
+msgid "Activate it to explore exclusive extensions, ready-to-use demo templates, and powerful features that make building your site easier and more enjoyable."
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:409
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:413
+msgid "Don\\'t refresh the page when installing recommended plugins"
+msgstr ""
+
+#: inc/patterns/oigny-lite-404-core-hero.php:6
+msgid "Oigny Lite 404 Core Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-404-gutenverse-hero.php:6
+msgid "Oigny Lite 404 Gutenverse Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-archive-core-hero.php:6
+msgid "Oigny Lite Archive Core Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-archive-gutenverse-hero.php:6
+msgid "Oigny Lite Archive Gutenverse Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-gutenverse-cta.php:6
+msgid "Oigny Lite Gutenverse CTA"
+msgstr ""
+
+#: inc/patterns/oigny-lite-gutenverse-footer.php:6
+msgid "Oigny Lite Gutenverse Footer"
+msgstr ""
+
+#: inc/patterns/oigny-lite-gutenverse-header.php:6
+msgid "Oigny Lite Gutenverse Header"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-core-about.php:6
+msgid "Oigny Lite Home Core About"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-core-blog.php:6
+msgid "Oigny Lite Home Core Blog"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-core-cta.php:6
+msgid "Oigny Lite Home Core CTA"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-core-feature.php:6
+msgid "Oigny Lite Home Core Feature"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-core-hero.php:6
+msgid "Oigny Lite Home Core Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-core-project.php:6
+msgid "Oigny Lite Home Core Project"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-core-service.php:6
+msgid "Oigny Lite Home Core Service"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-gutenverse-about.php:6
+msgid "Oigny Lite Home Gutenverse About"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-gutenverse-blog.php:6
+msgid "Oigny Lite Home Gutenverse Blog"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-gutenverse-hero.php:6
+msgid "Oigny Lite Home Gutenverse Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-gutenverse-projects.php:6
+msgid "Oigny Lite Home Gutenverse Projects"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-gutenverse-services.php:6
+msgid "Oigny Lite Home Gutenverse Services"
+msgstr ""
+
+#: inc/patterns/oigny-lite-home-gutenverse-why-choose.php:6
+msgid "Oigny Lite Home Gutenverse Why Choose"
+msgstr ""
+
+#: inc/patterns/oigny-lite-index-core-hero.php:6
+msgid "Oigny Lite Index Core Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-index-gutenverse-hero.php:6
+msgid "Oigny Lite Index Gutenverse Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-page-core-hero.php:6
+msgid "Oigny Lite Page Core Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-page-gutenverse-hero.php:6
+msgid "Oigny Lite Page Gutenverse Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-search-core-hero.php:6
+msgid "Oigny Lite Search Core Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-search-gutenverse-hero.php:6
+msgid "Oigny Lite Search Gutenverse Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-single-core-hero.php:6
+msgid "Oigny Lite Single Core Hero"
+msgstr ""
+
+#: inc/patterns/oigny-lite-single-post-gutenverse-content.php:6
+msgid "Oigny Lite Single Post Gutenverse Content"
+msgstr ""
+
+#: inc/patterns/oigny-lite-single-post-gutenverse-hero.php:6
+msgid "Oigny Lite Single Post Gutenverse Hero"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank Canvas"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Full Width"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Body/Text (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Gray (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Hover (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Color 1 (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Transparent (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Text Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Text Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Accent Hover"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Background Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Background Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Background Tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Border"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Border Input"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Text Placeholder"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Black"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Transparent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent Hover"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background Tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border Input"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text Placeholder"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Montserrat"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Michroma"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XX LARGE"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "H1"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "H1 ALT"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "H2"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "H3"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "H4"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "H5"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "H6"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "POST BLOCK"
+msgstr ""

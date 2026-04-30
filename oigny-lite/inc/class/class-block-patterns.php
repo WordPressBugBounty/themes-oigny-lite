@@ -54,12 +54,12 @@ class Block_Patterns {
 	 */
 	private function register_block_patterns() {
 		$block_pattern_categories = array(
-			'oigny-lite-core' => array( 'label' => __( 'Oigny Lite Core Patterns', 'oigny-lite' ) ),
+			'oigny-lite-core' => array( 'label' => esc_html__( 'Oigny Lite Core Patterns', 'oigny-lite' ) ),
 		);
 
 		if ( defined( 'GUTENVERSE' ) ) {
-			$block_pattern_categories['oigny-lite-gutenverse'] = array( 'label' => __( 'Oigny Lite Gutenverse Patterns', 'oigny-lite' ) );
-			$block_pattern_categories['oigny-lite-pro'] = array( 'label' => __( 'Oigny Lite Gutenverse PRO Patterns', 'oigny-lite' ) );
+			$block_pattern_categories['oigny-lite-gutenverse'] = array( 'label' => esc_html__( 'Oigny Lite Gutenverse Patterns', 'oigny-lite' ) );
+			$block_pattern_categories['oigny-lite-pro'] = array( 'label' => esc_html__( 'Oigny Lite Gutenverse PRO Patterns', 'oigny-lite' ) );
 		}
 
 		$block_pattern_categories = apply_filters( 'oigny-lite_block_pattern_categories', $block_pattern_categories );
@@ -71,12 +71,39 @@ class Block_Patterns {
 		}
 
 		$block_patterns = array(
-            'oigny-lite-home-core-hero',			'oigny-lite-home-core-about',			'oigny-lite-home-core-service',			'oigny-lite-home-core-feature',			'oigny-lite-home-core-project',			'oigny-lite-home-core-blog',			'oigny-lite-home-core-cta',			'oigny-lite-single-core-hero',			'oigny-lite-archive-core-hero',			'oigny-lite-index-core-hero',			'oigny-lite-404-core-hero',			'oigny-lite-page-core-hero',			'oigny-lite-search-core-hero',
+			'oigny-lite-home-core-hero',
+			'oigny-lite-home-core-about',
+			'oigny-lite-home-core-service',
+			'oigny-lite-home-core-feature',
+			'oigny-lite-home-core-project',
+			'oigny-lite-home-core-blog',
+			'oigny-lite-home-core-cta',
+			'oigny-lite-single-core-hero',
+			'oigny-lite-archive-core-hero',
+			'oigny-lite-index-core-hero',
+			'oigny-lite-404-core-hero',
+			'oigny-lite-page-core-hero',
+			'oigny-lite-search-core-hero',
 		);
 
 		if ( defined( 'GUTENVERSE' ) ) {
-            $block_patterns[] = 'oigny-lite-home-gutenverse-hero';			$block_patterns[] = 'oigny-lite-home-gutenverse-about';			$block_patterns[] = 'oigny-lite-home-gutenverse-services';			$block_patterns[] = 'oigny-lite-home-gutenverse-why-choose';			$block_patterns[] = 'oigny-lite-home-gutenverse-projects';			$block_patterns[] = 'oigny-lite-home-gutenverse-blog';			$block_patterns[] = 'oigny-lite-gutenverse-cta';			$block_patterns[] = 'oigny-lite-gutenverse-header';			$block_patterns[] = 'oigny-lite-gutenverse-footer';			$block_patterns[] = 'oigny-lite-projects-gutenverse-hero';			$block_patterns[] = 'oigny-lite-projects-gutenverse-projects';			$block_patterns[] = 'oigny-lite-projects-gutenverse-feature';			$block_patterns[] = 'oigny-lite-projects-gutenverse-testimoni';			$block_patterns[] = 'oigny-lite-gutenverse-cta';			$block_patterns[] = 'oigny-lite-contact-gutenverse-hero';			$block_patterns[] = 'oigny-lite-contact-gutenverse-contact';			$block_patterns[] = 'oigny-lite-contact-gutenverse-faq';			$block_patterns[] = 'oigny-lite-blog-gutenverse-hero';			$block_patterns[] = 'oigny-lite-blog-gutenverse-post-block';			$block_patterns[] = 'oigny-lite-blog-gutenverse-newsletter';			$block_patterns[] = 'oigny-lite-blog-gutenverse-list';			$block_patterns[] = 'oigny-lite-404-gutenverse-hero';			$block_patterns[] = 'oigny-lite-index-gutenverse-hero';			$block_patterns[] = 'oigny-lite-page-gutenverse-hero';			$block_patterns[] = 'oigny-lite-single-post-gutenverse-hero';			$block_patterns[] = 'oigny-lite-single-post-gutenverse-content';			$block_patterns[] = 'oigny-lite-archive-gutenverse-hero';			$block_patterns[] = 'oigny-lite-search-gutenverse-hero';			$block_patterns[] = 'oigny-lite-about-gutenverse-hero';			$block_patterns[] = 'oigny-lite-home-gutenverse-about';			$block_patterns[] = 'oigny-lite-about-gutenverse-feature';			$block_patterns[] = 'oigny-lite-about-gutenverse-stats';			$block_patterns[] = 'oigny-lite-about-gutenverse-team';
-            
+			$block_patterns[] = 'oigny-lite-home-gutenverse-hero';
+			$block_patterns[] = 'oigny-lite-home-gutenverse-about';
+			$block_patterns[] = 'oigny-lite-home-gutenverse-services';
+			$block_patterns[] = 'oigny-lite-home-gutenverse-why-choose';
+			$block_patterns[] = 'oigny-lite-home-gutenverse-projects';
+			$block_patterns[] = 'oigny-lite-home-gutenverse-blog';
+			$block_patterns[] = 'oigny-lite-gutenverse-cta';
+			$block_patterns[] = 'oigny-lite-gutenverse-header';
+			$block_patterns[] = 'oigny-lite-gutenverse-footer';
+			$block_patterns[] = 'oigny-lite-404-gutenverse-hero';
+			$block_patterns[] = 'oigny-lite-index-gutenverse-hero';
+			$block_patterns[] = 'oigny-lite-page-gutenverse-hero';
+			$block_patterns[] = 'oigny-lite-single-post-gutenverse-hero';
+			$block_patterns[] = 'oigny-lite-single-post-gutenverse-content';
+			$block_patterns[] = 'oigny-lite-archive-gutenverse-hero';
+			$block_patterns[] = 'oigny-lite-search-gutenverse-hero';
+			
 		}
 
 		$block_patterns = apply_filters( 'oigny-lite_block_patterns', $block_patterns );
@@ -85,6 +112,17 @@ class Block_Patterns {
 			$pattern_list = array();
 		}
 
+		$active_slug = get_stylesheet();
+		$inserted_content = get_option(
+			"gutenverse_{$active_slug}_content_inserted",
+			array(
+				'pages'    => array(),
+				'patterns' => array(),
+				'menus'    => array(),
+				'content_has_menus' => array(),
+			)
+		);
+
 		if ( function_exists( 'register_block_pattern' ) ) {
 			foreach ( $block_patterns as $block_pattern ) {
 				$pattern_file = get_theme_file_path( '/inc/patterns/' . $block_pattern . '.php' );
@@ -92,20 +130,58 @@ class Block_Patterns {
 
 				if ( (bool) $pattern_data['is_sync'] ) {
 					$post = get_page_by_path( $block_pattern . '-synced', OBJECT, 'wp_block' );
-					/**Download Image */
-					$content = wp_slash( $pattern_data['content'] );
-					if ( $pattern_data['images'] ) {
-						$images = json_decode( $pattern_data['images'] );
-						foreach ( $images as $key => $image ) {
-							$url  = $image->image_url;
-							$data = Helper::check_image_exist( $url );
-							if ( ! $data ) {
-								$data = Helper::handle_file( $url );
-							}
-							$content = str_replace( $url, $data['url'], $content );
-						}
-					}
+					$post_id = $post ? $post->ID : null;
 					if ( empty( $post ) ) {
+						/**Download Image */
+						$content = wp_slash( $pattern_data['content'] );
+						$image_importer_ver = $pattern_data['image_importer_ver'] ?? null;
+						if ( isset( $pattern_data['images'] ) && ! empty( $pattern_data['images'] ) ) {
+							$images = json_decode( $pattern_data['images'] );
+							if ( ! $image_importer_ver ) {
+								foreach ( $images as $key => $image ) {
+									$url  = $image->image_url;
+									$data = Helper::check_image_exist( $url );
+									if ( ! $data ) {
+										$data = Helper::handle_file( $url );
+									}
+									$content  = str_replace( $url, $data['url'], $content );
+									$image_id = $image->image_id;
+									if ( $image_id && 'null' !== $image_id ) {
+										$content = str_replace( '"imageId\":' . $image_id, '"imageId\":' . $data['id'], $content );
+									}
+								}
+							} else {
+								foreach ( $images as $key => $image ) {
+									$url     = $key;
+									$pattern = $image->pattern;
+									$data    = Helper::check_image_exist( $url );
+									if ( ! $data ) {
+										$data = Helper::handle_file( $url );
+									}
+									foreach ( $pattern as $p ) {
+										$placeholder_arr        = explode( '|', trim( $p, '{}' ) );
+										$placeholder_value_type = end( $placeholder_arr );
+										switch ( $placeholder_value_type ) {
+											case 'url':
+												$placeholder_data_type = $placeholder_arr[1];
+												if ( 'case2' === $placeholder_data_type ) {
+													$placeholder_data_size = $placeholder_arr[3];
+													$target                = wp_get_attachment_image_url( $data['id'], $placeholder_data_size );
+												} else {
+													$target = wp_get_attachment_url( $data['id'] );
+												}
+												break;
+											case 'id':
+											default:
+												$target = $data['id'];
+												break;
+										}
+										$content = str_replace( $p, $target, $content );
+									}
+								}
+							}
+						}
+						$content = $this->decode_unicode_sequences($content);
 						$post_id = wp_insert_post(
 							array(
 								'post_name'    => $block_pattern . '-synced',
@@ -116,9 +192,16 @@ class Block_Patterns {
 								'post_type'    => 'wp_block',
 							)
 						);
+						if ( isset( $pattern_data['placeholder'] ) ) {
+							$inserted_content['patterns'][] = array(
+								'id' => $post_id,
+								'is_remapped' => false,
+								'placeholder' => ! empty( $pattern_data['placeholder'] ) ? $pattern_data['placeholder'] : '',
+							);
+						}
 						if ( ! is_wp_error( $post_id ) ) {
 							$pattern_category = $pattern_data['categories'];
-							foreach( $pattern_category as $category ){
+							foreach ( $pattern_category as $category ) {
 								wp_set_object_terms( $post_id, $category, 'wp_pattern_category' );
 							}
 						}
@@ -127,7 +210,19 @@ class Block_Patterns {
 						$pattern_data['slug']     = $block_pattern;
 
 						$pattern_list[] = $pattern_data;
+						/**Check if content has menu */
+						$normalized_content = wp_unslash( $content );
+						preg_match_all(
+							'/"menuId"\s*:\s*(?:"(\d+)"|(\d+))/',
+							$normalized_content,
+							$matches
+						);
+
+						if ( ! empty( array_filter( array_merge( $matches[1], $matches[2] ) ) ) ) {
+							$inserted_content['content_has_menus'][] = $post_id;
+						}
 					}
+					
 				} else {
 					register_block_pattern(
 						'oigny-lite/' . $block_pattern,
@@ -135,8 +230,43 @@ class Block_Patterns {
 					);
 				}
 			}
+			
 			update_option( 'oigny-lite_synced_pattern_imported', $pattern_list );
+			update_option(
+				"gutenverse_{$active_slug}_content_inserted",
+				$inserted_content
+			);
 		}
+	}
+
+	/**
+	 * Decode unicode sequences
+	 *
+	 * @param string $content .
+	 * @return string
+	 */
+	private function decode_unicode_sequences( $content ) {
+		return preg_replace_callback(
+			'/\\\\u([0-9a-fA-F]{4})/',
+			function ( $matches ) {
+
+				$hex = strtolower( $matches[1] );
+
+				// Always keep quotes escaped.
+				if ( '0022' === $hex ) {
+					return '\"';
+				}
+
+				$codepoint = hexdec( $hex );
+
+				return mb_convert_encoding(
+					pack( 'n', $codepoint ),
+					'UTF-8',
+					'UTF-16BE'
+				);
+			},
+			$content
+		);
 	}
 
 	/**

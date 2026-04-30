@@ -1,18 +1,18 @@
 === Oigny Lite ===
 Contributors: Jegstudio
-Requires at least: 6.2
-Tested up to: 6.6
-Requires PHP: 7.0
-License: GPLv3 or later
+Requires at least: 6.5
+Tested up to: 6.9
+Requires PHP: 7.4.21
+License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Oigny Lite is Dark and modern style Agency theme template for WordPress that supports fullsite editing and is fully compatible with the Gutenverse plugin. Oigny Lite is perfect for Digital Agency, Creative Agency, Online Portfolio, Designer and Freelancer websites. You can use the included core and Gutenverse versions to make it easier to create the website you desire. We want to ensure that you have the best experience using WordPress to edit your site.
+Oigny Lite is a Dark Digital Agency WordPress Block Theme designed for creative teams that want to build a bold and modern online presence. Built with full site editing and powered by Gutenverse, this theme offers a flexible and visually striking platform to showcase portfolios, services, and brand identity with a sleek dark style and professional layout. Whether you run a digital agency, creative studio, or freelance business, Oigny Lite helps you present your work with impact and clarity. It is ideal for designers, developers, branding agencies, marketing teams, and creative professionals looking to stand out online. With responsive layouts, customizable block patterns, and well-structured pages, you can easily highlight projects, case studies, services, and client testimonials in a compelling way. Optimized for performance and usability, Oigny Lite enables you to create a high-quality website that reflects your brand and expertise in the Dark Digital Agency space. If you need a modern and visually engaging solution, Oigny Lite is a reliable Dark Digital Agency WordPress theme to grow your digital presence.
 
 == Copyright ==
 
-Oigny Lite, 2024 Jegstudio
+Oigny Lite, 2026 Jegstudio
 Oigny Lite is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
@@ -38,9 +38,25 @@ Self designed images,
 *Image 8 : oigny-lite/assets/img/date-icon.svg
 *Image 9 : oigny-lite/assets/img/square-icon.svg
 *Image 10 : oigny-lite/assets/img/right-icon-purple.webp
+*Image 11 : webrand-lite/assets/img/icon-comparison.png
+*Image 12 : webrand-lite/assets/img/icon-docs.png
+*Image 13 : webrand-lite/assets/img/icon-plugin.png
+*Image 14 : webrand-lite/assets/img/ss-cover-oigny-home.webp
 
-Declaring these self designed images under GPL license version 2.0 =
-License URL: http://www.gnu.org/licenses/gpl-2.0.html
+Declaring these self designed images under GPL license version 3.0 =
+License URL: http://www.gnu.org/licenses/gpl-3.0.html
+
+Google Web Fonts (Michroma) By Google - https://google.com
+Copyright 2011 The Michroma Project Authors (https://github.com/googlefonts/Michroma-font)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. 
+License URL: https://openfontlicense.org/
+Source: https://fonts.google.com/specimen/Michroma
+
+Google Web Fonts (Montserrat) By Google - https://google.com
+Copyright 2024 The Montserrat.Git Project Authors (https://github.com/JulietaUla/Montserrat.git)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. 
+License URL: https://openfontlicense.org/
+Source: https://fonts.google.com/specimen/Montserrat
 
 Icon for theme screenshot,
 License: (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -117,23 +133,27 @@ Source: https://stocksnap.io/photo/woman-business-WL2CO0KNZD
 
 == Changelog ==
 
-= 1.0.5 - 2024-11-25 =
+= 1.1.0 =
+* Update theme dashboard
+* Remove unused gutenverse templates
+
+= 1.0.5 =
 * Fix some pattern in gutenverse templates
 
-= 1.0.4 - 2024-11-15 =
+= 1.0.4 =
 * Update dashboard
 
-= 1.0.3 - 2024-09-18 =
+= 1.0.3 =
 * Update responsive pagination
 
-= 1.0.2 - 2024-09-10 =
+= 1.0.2 =
 * Update theme dashboard
 * Update pagination
 
-= 1.0.1 - 2024-08-22 =
+= 1.0.1 =
 * Fix theme URI
 * Fix underline link
 * Fix skip link
 
-= 1.0.0 - 2024-08-13 =
+= 1.0.0 =
 * Initial release

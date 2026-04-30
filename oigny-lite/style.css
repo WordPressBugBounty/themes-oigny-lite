@@ -1,24 +1,24 @@
 /*
 Theme Name: Oigny Lite
-Description: Oigny Lite is Dark and modern style Agency theme template for WordPress that supports fullsite editing and is fully compatible with the Gutenverse plugin. Oigny Lite is perfect for Digital Agency, Creative Agency, Online Portfolio, Designer and Freelancer websites. You can use the included core and Gutenverse versions to make it easier to create the website you desire. We want to ensure that you have the best experience using WordPress to edit your site.
+Description: Oigny Lite is a Dark Digital Agency WordPress Block Theme designed for creative teams that want to build a bold and modern online presence. Built with full site editing and powered by Gutenverse, this theme offers a flexible and visually striking platform to showcase portfolios, services, and brand identity with a sleek dark style and professional layout. Whether you run a digital agency, creative studio, or freelance business, Oigny Lite helps you present your work with impact and clarity. It is ideal for designers, developers, branding agencies, marketing teams, and creative professionals looking to stand out online. With responsive layouts, customizable block patterns, and well-structured pages, you can easily highlight projects, case studies, services, and client testimonials in a compelling way. Optimized for performance and usability, Oigny Lite enables you to create a high-quality website that reflects your brand and expertise in the Dark Digital Agency space. If you need a modern and visually engaging solution, Oigny Lite is a reliable Dark Digital Agency WordPress theme to grow your digital presence.
 Author: Jegstudio
 Author URI: https://gutenverse.com
 Theme URI: https://gutenverse.com/themes/oigny-lite/
-Version: 1.0.5
-Stable tag: 1.0.5
-Requires at least: 6.2
-Tested up to: 6.6
+Version: 1.1.0
+Stable tag: 1.1.0
+Requires at least: 6.5
+Tested up to: 6.9
 Requires PHP: 7.4.21
 License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: oigny-lite
+Domain Path: /languages
 Tags: block-patterns,block-styles,custom-background,custom-menu,editor-style,full-site-editing,template-editing
 Copyright: © Jegstudio. All rights reserved.
 */
 
-:root{
-    
-}
+
+
 .editor-styles-wrapper .block-editor-block-list__layout.is-root-container > .block-library-block__reusable-block-container {
     max-width: 100%;
 }

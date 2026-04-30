@@ -10,16 +10,16 @@ return array(
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":348,"width":"12px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#a814e7","#ffffff"]}}} -->
-<figure class="wp-block-image size-full is-resized"><img src="' . esc_url( OIGNY_LITE_URI ) . 'assets/img/square-icon.svg" alt="" class="wp-image-348" style="width:12px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/square-icon.svg" alt="" class="wp-image-348" style="width:12px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"h4","fontFamily":"michroma"} -->
-<h4 class="wp-block-heading has-michroma-font-family has-h-4-font-size" style="font-style:normal;font-weight:500">About Us</h4>
+<div class="wp-block-group"><!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"h4","fontFamily":"michroma"} -->
+<h4 class="wp-block-heading has-white-color has-text-color has-link-color has-michroma-font-family has-h-4-font-size" style="font-style:normal;font-weight:500">About Us</h4>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontSize":"h6","fontFamily":"michroma"} -->
-<h4 class="wp-block-heading has-theme-3-color has-text-color has-link-color has-michroma-font-family has-h-6-font-size" style="font-style:normal;font-weight:400">/ Who We Are</h4>
+<!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"elements":{"link":{"color":{"text":"var:preset|color|gv-color-dark-text-secondary"}}}},"textColor":"gv-color-dark-text-secondary","fontSize":"h6","fontFamily":"michroma"} -->
+<h4 class="wp-block-heading has-gv-color-dark-text-secondary-color has-text-color has-link-color has-michroma-font-family has-h-6-font-size" style="font-style:normal;font-weight:400">/ Who We Are</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -30,15 +30,15 @@ return array(
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"40px"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:heading {"className":"oigny-lite-animate oigny-lite-move-right oigny-lite-delay-1","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.25"},"layout":{"selfStretch":"fixed","flexSize":"82%"}},"fontSize":"h2"} -->
-<h2 class="wp-block-heading oigny-lite-animate oigny-lite-move-right oigny-lite-delay-1 has-h-2-font-size" style="font-style:normal;font-weight:500;line-height:1.25">We are a professionals Creative Digital Agency with world class team who help your brilliant content <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-theme-2-color"><em>to reach more people.</em></mark></h2>
+<div class="wp-block-group"><!-- wp:heading {"className":"oigny-lite-animate oigny-lite-move-right oigny-lite-delay-1","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.25"},"layout":{"selfStretch":"fixed","flexSize":"82%"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"h2"} -->
+<h2 class="wp-block-heading oigny-lite-animate oigny-lite-move-right oigny-lite-delay-1 has-white-color has-text-color has-link-color has-h-2-font-size" style="font-style:normal;font-weight:500;line-height:1.25">We are a professionals Creative Digital Agency with world class team who help your brilliant content <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-gv-color-dark-primary-color"><em>to reach more people.</em></mark></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained","wideSize":"450px"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"18px","fontStyle":"normal","fontWeight":"200"},"elements":{"link":{"color":{"text":"var:preset|color|theme-3"}}}},"textColor":"theme-3","fontFamily":"montserrat"} -->
-<p class="has-theme-3-color has-text-color has-link-color has-montserrat-font-family" style="font-size:18px;font-style:normal;font-weight:200">Rem ill perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto. Perspiciatis unde omnis iste natus error sit voluptatem deleniti atque corrupti.</p>
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"18px","fontStyle":"normal","fontWeight":"200"},"elements":{"link":{"color":{"text":"var:preset|color|gv-color-dark-text-secondary"}}}},"textColor":"gv-color-dark-text-secondary","fontFamily":"montserrat"} -->
+<p class="has-gv-color-dark-text-secondary-color has-text-color has-link-color has-montserrat-font-family" style="font-size:18px;font-style:normal;font-weight:200">Rem ill perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto. Perspiciatis unde omnis iste natus error sit voluptatem deleniti atque corrupti.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -46,6 +46,5 @@ return array(
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->',
-	'images'      => '',
 	'is_sync' => false,
 );

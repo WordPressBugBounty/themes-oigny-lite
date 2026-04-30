@@ -32,9 +32,9 @@ class Asset_Enqueue {
 	public function enqueue_scripts() {
 		wp_enqueue_style( 'oigny-lite-style', get_stylesheet_uri(), array(), OIGNY_LITE_VERSION );
 
-				wp_enqueue_style( 'presset', OIGNY_LITE_URI . '/assets/css/presset.css', array(), OIGNY_LITE_VERSION );
-		wp_enqueue_style( 'custom-styling', OIGNY_LITE_URI . '/assets/css/custom-styling.css', array(), OIGNY_LITE_VERSION );
-		wp_enqueue_script( 'animation-script', OIGNY_LITE_URI . '/assets/js/animation-script.js', array(), OIGNY_LITE_VERSION, true );
+				wp_enqueue_style( 'oigny-lite-presset', trailingslashit( get_template_directory_uri() ) . '/assets/css/oigny-lite-presset.css', array(), OIGNY_LITE_VERSION );
+		wp_enqueue_style( 'oigny-lite-custom-styling', trailingslashit( get_template_directory_uri() ) . '/assets/css/oigny-lite-custom-styling.css', array(), OIGNY_LITE_VERSION );
+		wp_enqueue_script( 'oigny-lite-animation-script', trailingslashit( get_template_directory_uri() ) . '/assets/js/oigny-lite-animation-script.js', array(), OIGNY_LITE_VERSION, true );
 
 
         if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
