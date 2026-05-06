@@ -15,7 +15,7 @@ return array(
 <div class="wp-block-group" style="padding-top:180px;padding-right:15px;padding-bottom:80px;padding-left:15px"><!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"15px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="margin-bottom:15px"><!-- wp:group {"style":{"border":{"radius":"8px"},"color":{"gradient":"linear-gradient(313deg,rgb(168,20,231) 0%,rgb(75,49,127) 100%)"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-background" style="border-radius:8px;background:linear-gradient(313deg,rgb(168,20,231) 0%,rgb(75,49,127) 100%)"><!-- wp:post-terms {"term":"category","style":{"spacing":{"padding":{"top":"5px","bottom":"5px","left":"15px","right":"15px"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} /--></div>
+<div class="wp-block-group has-background" style="border-radius:8px;background:linear-gradient(313deg,rgb(168,20,231) 0%,rgb(75,49,127) 100%)"><!-- wp:post-terms {"term":"category","style":{"spacing":{"padding":{"top":"5px","bottom":"5px","left":"15px","right":"15px"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontFamily":"michroma"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
@@ -31,7 +31,7 @@ return array(
 <figure class="wp-block-image size-large is-resized null-margin-top-n10"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/date-icon.svg" alt="" class="wp-image-326" style="object-fit:cover;width:16px;height:16px"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} /--></div>
+<!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontFamily":"montserrat"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
@@ -41,7 +41,7 @@ return array(
 <figure class="wp-block-image size-large is-resized null-margin-top-n10"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/user-icon.svg" alt="" class="wp-image-325" style="object-fit:cover;width:16px;height:16px"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:post-author-name {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} /--></div>
+<!-- wp:post-author-name {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontFamily":"montserrat"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

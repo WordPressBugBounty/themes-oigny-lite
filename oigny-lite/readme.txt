@@ -29,19 +29,20 @@ Self designed images,
 *Logo 1 : oigny-lite/assets/img/oigny-white-logo.webp
 *Logo 2 : oigny-lite/assets/img/oigny-logo-black.webp
 *Image 1 : oigny-lite/assets/img/oigny-bg-hero-home.webp
-*Image 2 : oigny-lite/assets/img/bg-hero-page.webp
-*Image 3 : oigny-lite/assets/img/bg-hero-page-2.webp
-*Image 4 : oigny-lite/assets/img/bg-gradient.webp
-*Image 5 : oigny-lite/assets/img/play-circle.webp
-*Image 6 : oigny-lite/assets/img/arrow-icon.webp
-*Image 7 : oigny-lite/assets/img/user-icon.svg
-*Image 8 : oigny-lite/assets/img/date-icon.svg
-*Image 9 : oigny-lite/assets/img/square-icon.svg
-*Image 10 : oigny-lite/assets/img/right-icon-purple.webp
-*Image 11 : webrand-lite/assets/img/icon-comparison.png
-*Image 12 : webrand-lite/assets/img/icon-docs.png
-*Image 13 : webrand-lite/assets/img/icon-plugin.png
-*Image 14 : webrand-lite/assets/img/ss-cover-oigny-home.webp
+*Image 2 : oigny-lite/assets/img/oigny-bg-hero-home-mobile.webp
+*Image 3 : oigny-lite/assets/img/bg-hero-page.webp
+*Image 4 : oigny-lite/assets/img/bg-hero-page-2.webp
+*Image 5 : oigny-lite/assets/img/bg-gradient.webp
+*Image 6 : oigny-lite/assets/img/play-circle.webp
+*Image 7 : oigny-lite/assets/img/arrow-icon.webp
+*Image 8 : oigny-lite/assets/img/user-icon.svg
+*Image 9 : oigny-lite/assets/img/date-icon.svg
+*Image 10 : oigny-lite/assets/img/square-icon.svg
+*Image 11 : oigny-lite/assets/img/right-icon-purple.webp
+*Image 12 : oigny-lite/assets/img/icon-comparison.png
+*Image 13 : oigny-lite/assets/img/icon-docs.png
+*Image 14 : oigny-lite/assets/img/icon-plugin.png
+*Image 15 : oigny-lite/assets/img/ss-cover-oigny-home.webp
 
 Declaring these self designed images under GPL license version 3.0 =
 License URL: http://www.gnu.org/licenses/gpl-3.0.html
@@ -132,6 +133,9 @@ License URL: https://stocksnap.io/license
 Source: https://stocksnap.io/photo/woman-business-WL2CO0KNZD
 
 == Changelog ==
+
+= 1.1.1 =
+* Improved: Overall performance and SEO optimization.
 
 = 1.1.0 =
 * Update theme dashboard

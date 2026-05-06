@@ -15,8 +15,8 @@ return array(
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"h4","fontFamily":"michroma"} -->
-<h4 class="wp-block-heading has-white-color has-text-color has-link-color has-michroma-font-family has-h-4-font-size" style="font-style:normal;font-weight:500">Service</h4>
+<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"h4","fontFamily":"michroma"} -->
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color has-michroma-font-family has-h-4-font-size" style="font-style:normal;font-weight:500">Service</h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"elements":{"link":{"color":{"text":"var:preset|color|gv-color-dark-text-secondary"}}}},"textColor":"gv-color-dark-text-secondary","fontSize":"h6","fontFamily":"michroma"} -->
@@ -54,7 +54,7 @@ return array(
 <!-- /wp:group -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"id":227,"width":"45px","sizeSlug":"full","linkDestination":"custom"} -->
-<figure class="wp-block-image size-full is-resized"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/arrow-icon.webp" alt="" class="wp-image-227" style="width:45px"/></a></figure>
+<figure class="wp-block-image size-full is-resized"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/arrow-icon.webp" alt="direct to digital strategy detail" class="wp-image-227" style="width:45px"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -70,7 +70,7 @@ return array(
 <!-- /wp:group -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"id":227,"width":"45px","sizeSlug":"full","linkDestination":"custom"} -->
-<figure class="wp-block-image size-full is-resized"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/arrow-icon.webp" alt="" class="wp-image-227" style="width:45px"/></a></figure>
+<figure class="wp-block-image size-full is-resized"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/arrow-icon.webp" alt="direct to branding identity detail" class="wp-image-227" style="width:45px"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -86,7 +86,7 @@ return array(
 <!-- /wp:group -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"id":227,"width":"45px","sizeSlug":"full","linkDestination":"custom"} -->
-<figure class="wp-block-image size-full is-resized"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/arrow-icon.webp" alt="" class="wp-image-227" style="width:45px"/></a></figure>
+<figure class="wp-block-image size-full is-resized"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/arrow-icon.webp" alt="direct to digital product detail" class="wp-image-227" style="width:45px"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -102,7 +102,7 @@ return array(
 <!-- /wp:group -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"id":227,"width":"45px","sizeSlug":"full","linkDestination":"custom"} -->
-<figure class="wp-block-image size-full is-resized"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/arrow-icon.webp" alt="" class="wp-image-227" style="width:45px"/></a></figure>
+<figure class="wp-block-image size-full is-resized"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/arrow-icon.webp" alt="direct to content marketing detail" class="wp-image-227" style="width:45px"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -118,7 +118,7 @@ return array(
 <!-- /wp:group -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"id":227,"width":"45px","sizeSlug":"full","linkDestination":"custom"} -->
-<figure class="wp-block-image size-full is-resized"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/arrow-icon.webp" alt="" class="wp-image-227" style="width:45px"/></a></figure>
+<figure class="wp-block-image size-full is-resized"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/arrow-icon.webp" alt="direct to web development detail" class="wp-image-227" style="width:45px"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -134,7 +134,7 @@ return array(
 <!-- /wp:group -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"id":227,"width":"45px","sizeSlug":"full","linkDestination":"custom"} -->
-<figure class="wp-block-image size-full is-resized"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/arrow-icon.webp" alt="" class="wp-image-227" style="width:45px"/></a></figure>
+<figure class="wp-block-image size-full is-resized"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/arrow-icon.webp" alt="direct to ppc advertising detail" class="wp-image-227" style="width:45px"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

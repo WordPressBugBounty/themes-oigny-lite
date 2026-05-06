@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-defined( 'OIGNY_LITE_VERSION' ) || define( 'OIGNY_LITE_VERSION', '1.1.0' );
+defined( 'OIGNY_LITE_VERSION' ) || define( 'OIGNY_LITE_VERSION', '1.1.1' );
 defined( 'OIGNY_LITE_DIR' ) || define( 'OIGNY_LITE_DIR', trailingslashit( get_template_directory() ) );
 
 defined( 'GUTENVERSE_COMPANION_REQUIRED_VERSION' ) || define( 'GUTENVERSE_COMPANION_REQUIRED_VERSION', '2.3.3' );

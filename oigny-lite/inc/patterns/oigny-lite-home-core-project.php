@@ -14,8 +14,8 @@ return array(
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"h4","fontFamily":"michroma"} -->
-<h4 class="wp-block-heading has-white-color has-text-color has-link-color has-michroma-font-family has-h-4-font-size" style="font-style:normal;font-weight:500">Projects</h4>
+<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"h4","fontFamily":"michroma"} -->
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color has-michroma-font-family has-h-4-font-size" style="font-style:normal;font-weight:500">Projects</h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"elements":{"link":{"color":{"text":"var:preset|color|gv-color-dark-text-secondary"}}}},"textColor":"gv-color-dark-text-secondary","fontSize":"h6","fontFamily":"michroma"} -->
@@ -56,7 +56,7 @@ return array(
 <div class="wp-block-group" style="padding-top:100px"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"100px"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"width":"52%","className":"oigny-lite-animate oigny-lite-move-up"} -->
 <div class="wp-block-column oigny-lite-animate oigny-lite-move-up" style="flex-basis:52%"><!-- wp:image {"id":14,"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":{"topLeft":"15px","topRight":"15px"}}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/watch-hand-plastic-time-ice-metal-635899-pxhere.com_.webp" alt="" class="wp-image-14" style="border-top-left-radius:15px;border-top-right-radius:15px;aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-large has-custom-border"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/watch-hand-plastic-time-ice-metal-635899-pxhere.com_.webp" alt="watch hand plastic time ice metal" class="wp-image-14" style="border-top-left-radius:15px;border-top-right-radius:15px;aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"60px","bottom":"60px","left":"65px","right":"65px"},"blockGap":"12px","margin":{"top":"0px","bottom":"0px"}},"border":{"radius":{"bottomLeft":"15px","bottomRight":"15px"},"bottom":{"color":"var:preset|color|gv-color-dark-border","style":"solid","width":"1px"},"top":[],"right":{"color":"var:preset|color|gv-color-dark-border","style":"solid","width":"1px"},"left":{"color":"var:preset|color|gv-color-dark-border","style":"solid","width":"1px"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
@@ -71,8 +71,8 @@ return array(
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"48%","className":"oigny-lite-animate oigny-lite-move-up oigny-lite-delay-1","style":{"spacing":{"padding":{"top":"100px"}}}} -->
-<div class="wp-block-column oigny-lite-animate oigny-lite-move-up oigny-lite-delay-1" style="padding-top:100px;flex-basis:48%"><!-- wp:image {"id":18,"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":{"topLeft":"15px","topRight":"15px"}}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/structure-wheel-texture-spiral-number-heart-gradient-368029-pxhere.com_.jpg" alt="" class="wp-image-18" style="border-top-left-radius:15px;border-top-right-radius:15px;aspect-ratio:1;object-fit:cover"/></figure>
+<div class="wp-block-column oigny-lite-animate oigny-lite-move-up oigny-lite-delay-1" style="padding-top:100px;flex-basis:48%"><!-- wp:image {"id":58,"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":{"topLeft":"15px","topRight":"15px"}}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/structure-wheel-texture-spiral-number-heart-gradient-368029-pxhere.com_.webp" alt="structure wheel texture spiral number heart gradient" class="wp-image-58" style="border-top-left-radius:15px;border-top-right-radius:15px;aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"60px","bottom":"60px","left":"65px","right":"65px"},"blockGap":"12px","margin":{"top":"0px","bottom":"0px"}},"border":{"radius":{"bottomLeft":"15px","bottomRight":"15px"},"bottom":{"color":"var:preset|color|gv-color-dark-border","style":"solid","width":"1px"},"top":[],"right":{"color":"var:preset|color|gv-color-dark-border","style":"solid","width":"1px"},"left":{"color":"var:preset|color|gv-color-dark-border","style":"solid","width":"1px"}}},"layout":{"type":"flex","orientation":"vertical"}} -->

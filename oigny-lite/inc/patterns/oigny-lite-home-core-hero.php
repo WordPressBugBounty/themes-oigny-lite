@@ -14,8 +14,8 @@ return array(
 <h1 class="wp-block-heading has-text-align-center oigny-lite-animate oigny-lite-move-up has-white-color has-text-color has-link-color has-michroma-font-family has-h-1-font-size" style="font-style:normal;font-weight:500;line-height:1">Creative</h1>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"textAlign":"center","level":1,"className":"oigny-lite-animate oigny-lite-move-up","style":{"typography":{"lineHeight":"1","fontStyle":"normal","fontWeight":"500"},"layout":{"selfStretch":"fit","flexSize":null},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"h1","fontFamily":"michroma"} -->
-<h1 class="wp-block-heading has-text-align-center oigny-lite-animate oigny-lite-move-up has-white-color has-text-color has-link-color has-michroma-font-family has-h-1-font-size" style="font-style:normal;font-weight:500;line-height:1">Digital Agency<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-gv-color-dark-primary-color">.</mark></h1>
+<!-- wp:heading {"textAlign":"center","className":"oigny-lite-animate oigny-lite-move-up","style":{"typography":{"lineHeight":"1","fontStyle":"normal","fontWeight":"500"},"layout":{"selfStretch":"fit","flexSize":null},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"h1","fontFamily":"michroma"} -->
+<h2 class="wp-block-heading has-text-align-center oigny-lite-animate oigny-lite-move-up has-white-color has-text-color has-link-color has-michroma-font-family has-h-1-font-size" style="font-style:normal;font-weight:500;line-height:1">Digital Agency<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-gv-color-dark-primary-color">.</mark></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"35px","bottom":"35px"}}},"layout":{"type":"constrained","wideSize":"650px","contentSize":"600px"}} -->
@@ -37,7 +37,7 @@ return array(
 <!-- wp:columns {"style":{"border":{"radius":"15px"},"spacing":{"margin":{"top":"140px"},"padding":{"right":"70px","bottom":"75px","left":"70px"}}},"backgroundColor":"black"} -->
 <div class="wp-block-columns has-black-background-color has-background" style="border-radius:15px;margin-top:140px;padding-right:70px;padding-bottom:75px;padding-left:70px"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"lightbox":{"enabled":false},"id":222,"width":"95px","sizeSlug":"full","linkDestination":"custom","className":"oigny-lite-margin-top-n70"} -->
-<figure class="wp-block-image size-full is-resized oigny-lite-margin-top-n70"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/play-circle.webp" alt="" class="wp-image-222" style="width:95px"/></a></figure>
+<figure class="wp-block-image size-full is-resized oigny-lite-margin-top-n70"><a href="#"><img src="' . esc_url( trailingslashit( get_template_directory_uri() ) ) . 'assets/img/play-circle.webp" alt="play button" class="wp-image-222" style="width:95px"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"12px","margin":{"top":"50px"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","verticalAlignment":"top"}} -->
@@ -46,8 +46,8 @@ return array(
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"h4","fontFamily":"michroma"} -->
-<h4 class="wp-block-heading has-white-color has-text-color has-link-color has-michroma-font-family has-h-4-font-size" style="font-style:normal;font-weight:500">Introduction</h4>
+<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"h4","fontFamily":"michroma"} -->
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color has-michroma-font-family has-h-4-font-size" style="font-style:normal;font-weight:500">Introduction</h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"elements":{"link":{"color":{"text":"var:preset|color|gv-color-dark-text-secondary"}}}},"textColor":"gv-color-dark-text-secondary","fontSize":"h6","fontFamily":"michroma"} -->
